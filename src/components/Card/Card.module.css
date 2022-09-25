@@ -1,0 +1,38 @@
+.card {
+  width: 30%;
+  background-color: rgb(253, 253, 253);
+  -webkit-box-shadow: -4px 4px 10px -7px rgba(20, 20, 20, 1);
+  -moz-box-shadow: -4px 4px 10px -7px rgba(20, 20, 20, 1);
+  box-shadow: -4px 4px 10px -7px rgba(20, 20, 20, 1);
+  background-color: white;
+  border-radius: 9px;
+  overflow: hidden;
+}
+
+.cardHeader {
+  padding: 10px;
+  background-color: rgb(43, 43, 43);
+}
+
+.cardHeader h2 {
+  font-size: 17px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.cardBody {
+  padding: 10px;
+  width: 100%;
+}
+
+.cardMeta {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+}
+
+@media (max-width: 620px) {
+  .card {
+    width: 100%;
+  }
+}

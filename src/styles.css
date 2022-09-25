@@ -1,0 +1,33 @@
+body {
+  background-color: #ccc;
+}
+
+.main {
+  width: 100%;
+}
+
+.AppHeader {
+  display: flex;
+  align-items: center;
+  padding: 10px 50px;
+  justify-content: center;
+}
+
+.AppHeaderItem {
+  margin: 5px;
+}
+
+.Appcontainer {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+@media (max-width: 620px) {
+  .Appcontainer {
+    flex-direction: column;
+  }
+}
